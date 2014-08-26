@@ -45,5 +45,30 @@ $(document).ready(function () {
     ]
   };
   // Write come code to add the dogs to the table !!!!
+
+
+
+
+
+  document.getElementById("owner").innerHTML =
+    gschoolDogs.dogs[0].owner;
+
+  document.getElementById("name").innerHTML =
+    gschoolDogs.dogs[0].name;
+
+  document.getElementById("favoriteFood").innerHTML =
+    gschoolDogs.dogs[0].preferences[0].favoriteFood;
+
+  document.getElementById("favoriteToy").innerHTML =
+    gschoolDogs.dogs[0].preferences[1].favoriteToy;
+
+
+
+
+
+
+
+
+
 });
 
